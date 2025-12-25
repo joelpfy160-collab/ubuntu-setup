@@ -35,10 +35,6 @@ sudo snap install snap-store
 echo "Install Chromium"
 sudo snap install chromium
 
-
-echo "🧠 Installing VS Code..."
-sudo snap install code --classic
-
 echo "🌍 Installing Google Chrome..."
 wget -qO /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -y /tmp/chrome.deb
@@ -51,11 +47,6 @@ sudo snap install vlc
 
 echo "Install Spotify"
 sudo snap install spotify
-
-echo "Install VS Code"
-sudo snap install --classic code
-
-echo ""
 
 echo "🧹 Cleaning up..."
 sudo apt autoremove -y
