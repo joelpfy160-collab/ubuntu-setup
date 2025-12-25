@@ -6,6 +6,9 @@ echo "🚀 Starting Linux setup..."
 
 sudo apt update && sudo apt upgrade -y
 
+echo "Installing Snapd"
+sudo apt install snapd
+
 echo "📦 Installing core tools..."
 sudo apt install -y \
   git \
